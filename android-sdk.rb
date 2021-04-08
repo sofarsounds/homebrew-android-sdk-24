@@ -16,7 +16,7 @@ class AndroidSdk < Formula
     sha256 "9fe198f396e2a8209ff14b647d7d0ba2ab19ed523a19a63563b55003152514c3" => :yosemite
   end
 
-  depends_on :openjdk@8
+  depends_on "openjdk@8"
   # depends_on :macos => :mountain_lion
 
   conflicts_with "android-platform-tools",
